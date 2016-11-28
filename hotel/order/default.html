@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<title>Бронирование</title>
+
+<link href="../styles/style1.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+</head>
+
+<body>
+
+
+<div id="container">
+	
+	<div id="masthead">
+		<h1><a href="#">Гостиница "Восток"</a></h1>
+		<h3>веб-сайт гостиницы "Восток"</h3>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="../index.html">Главная</a></li>
+			<li><a href="../contact/default.html">Контакты</a></li>
+			<li><a href="default.html">Бронирование</a></li>
+			<li><a href="../media/default.html">Медиа</a></li>
+			<li><a href="../partners/default.html">Партнеры</a></li>
+		</ul>
+	</div>
+	
+	<div id="content_container">
+		
+		<div id="column_left">
+			
+			<h3>Описание номеров</h3>
+			<ul>
+			<li> Эконом - простой дешевый вариант, две односпальные кровати. Нет балкона, объединенный санузел. Небольшой телевизор. <br />
+			<br />
+			<center><a href="../images/eco.jpg"><img src="../images/eco.jpg" alt="eco" height="50%" width="50%"/></a></center>
+			</li>
+			<br />
+			<li> Норма - двуспальная кровать, средний телевизор, есть балкон, разделенный санузел. Холодильник. <br />
+			<br />
+			<center><a href="../images/norm.jpg"><img src="../images/norm.jpg" alt="norm" height="50%" width="50%"/></a></center>
+			</li>
+			
+				<br />
+				<li>Люкс - просторная двуспальная кровать, диван, 2 кресла. Большой LCD-телевизор, две душевые, балкон с видом на море. <br />
+			<br />
+			<center><a href="../images/lux.jpg"><img src="../images/lux.jpg" alt="lux" height="50%" width="50%"/></a></center>
+			</li>
+			</ul>
+			<br />
+			<hr />
+			<h3>Бронирование: </h3>
+			<form method="post" action="../form.php"> 
+			<p>Выберите класс номера:  <select name="SelectClass">
+				<option>Эконом</option><option>Норма</option><option>Люкс</option>
+		</select></p>
+		
+<p>Фамилия: <input name="FistName" type="text"  required placeholder="Введите фамилию" /></p>
+<p>Имя: <input name="SecondName" type="text" required placeholder="Введите имя" /></p>
+<p>Отчество: <input name="ThirdName" type="text" required placeholder="Введите отчество" /></p>
+<p>Телефон: <input type="text" name="phone_number" SIZE= "15" MAXLENGTH= "12" required placeholder="+71234567890"></p>
+<button name="Submit" input type="submit">Отправить заявку</button>
+	</form>
+			
+			</div>
+		
+		<div id="column_right">
+			
+			<h4>Бронирование</h4>
+			<p>На этой странице вы можете забронировать номер, посмотреть количество доступных номеров каждого класса оснащенности<br />
+			Количество свободных номеров:<br />
+			Люкс: 7<br />
+			Норма: 25<br />
+		    Эконом: 12<br />
+			</div>
+		
+		<div id="footer">
+			<div id="copyright">
+				<p>Copyright &copy; 2016. Все права защищены.</p>
+			</div>
+			<p><a href="../index.html">Главная</a> |<a href="../order/default.html">Бронирование</a> |
+			<a href="../media/default.html">Медиа</a> |
+			<a href="../partners/default.html">Партнеры</a> |
+			<a href="../contact/default.html">Контакты</a></p>
+		</div>
+		</div>
+	</div>
+
+
+</body>
+
+
+</html>
